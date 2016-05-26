@@ -1,0 +1,58 @@
+[
+  {
+    "id": "belly",
+    "description": "",
+    "name": "Belly",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "belly;a-few-cukes",
+        "description": "",
+        "name": "a few cukes",
+        "keyword": "Scenario",
+        "line": 3,
+        "steps": [
+          {
+            "result": {
+              "duration": 337997035,
+              "status": "passed"
+            },
+            "name": "I have 42 cukes in my belly",
+            "keyword": "Given ",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "val": "42",
+                  "offset": 7
+                }
+              ],
+              "location": "Stepdefs.I_have_cukes_in_my_belly(int)"
+            }
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I wait 1 hour",
+            "keyword": "When ",
+            "line": 5,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "my belly should growl",
+            "keyword": "Then ",
+            "line": 6,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "com/cucumber/MavenCucumberProject/belly.feature"
+  }
+]
